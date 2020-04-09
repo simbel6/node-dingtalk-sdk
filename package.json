@@ -1,0 +1,39 @@
+{
+  "name": "node-dingtalk-sdk",
+  "version": "1.0.3",
+  "description": "node sdk for dingtalk",
+  "main": "lib/dingtalk.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simbel6/node-dingtalk-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/simbel6/node-dingtalk-sdk/issues"
+  },
+  "homepage": "https://github.com/simbel6/node-dingtalk-sdk",
+  "scripts": {
+    "lint": "eslint --ext .js lib/",
+    "test": "npx mocha \"test/**/*.test.js\"",
+    "cov": "nyc npm run test"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.3.0",
+    "husky": "^3.0.2",
+    "mocha": "^6.2.0",
+    "nyc": "^15.0.0"
+  },
+  "keywords": [
+    "dingtalk",
+    "dingtalk-sdk",
+    "node-dingtalk",
+    "node-dingtalk-sdk"
+  ],
+  "author": "Simbel",
+  "license": "ISC"
+}
