@@ -12,7 +12,7 @@
   },
   "homepage": "https://github.com/simbel6/node-dingtalk-sdk",
   "scripts": {
-    "lint": "eslint --ext .js lib/",
+    "lint": "eslint --ext .js lib/ --fix",
     "test": "npx mocha \"test/**/*.test.js\"",
     "cov": "nyc npm run test"
   },

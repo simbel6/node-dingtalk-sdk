@@ -1,4 +1,12 @@
 
+## node-dingtalk-sdk - [钉钉SDK](https://open-doc.dingtalk.com/)
+
+## Install
+
+```shell
+$ npm i node-dingtalk-sdk --save
+```
+
 ## 使用
 
 ```
@@ -109,6 +117,12 @@ Note：扫码获取 tmpAuthCode 后，需要手动构造一个链接，该链接
 > /user/get_org_user_count
 
 获取企业员工数
+
+#### getUserInfoByCode
+
+> /user/getuserinfo
+
+内部应用免登服务, 通过CODE换取用户身份
 
 ### Department
 
